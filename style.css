@@ -18,7 +18,7 @@ body {
 }
 .slider {
     bottom: 50%;
-
+    gap: 25px;
     position: absolute;
     background-color: cornflowerblue;
     width: 10000px;
@@ -30,30 +30,21 @@ body {
 .item1 {
     background-color: red;
     width: 400px;
+    font-size: 150px;
     height: 100%;
 }
-.item2 {
-    background-color: yellow;
-    width: 400px;
-    height: 100%;
-}
-.item3 {
-    background-color: green;
-    width: 400px;
-    height: 100%;
-}
-.item4 {
-    background-color: indigo;
-    width: 400px;
-    height: 100%;
-}
-.item5 {
+:nth-child(2) {
     background-color: white;
-    width: 400px;
-    height: 100%;
 }
-.item6 {
+:nth-child(3) {
+    background-color: green;
+}
+:nth-child(4) {
     background-color: blue;
-    width: 400px;
-    height: 100%;
+}
+:nth-child(5) {
+    background-color: blueviolet;
+}
+:nth-child(6) {
+    background-color: yellow;
 }
