@@ -1,26 +1,27 @@
 * {
-    background-color: black;
+    background-color: white;
 }
 body {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .container {
-    /* background-color: burlywood; */
-    width: 1200px;
-    height: 800px;
+    background-color: white;
+    width: 1290px;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* overflow: hidden;
-    position: relative; */
+    overflow: hidden;
+    position: relative;
 }
 .slider {
-    bottom: 50%;
+    left: -4565px;
     gap: 25px;
     position: absolute;
-    background-color: cornflowerblue;
+    background-color: white;
     width: 10000px;
     height: 400px;
     display: flex;
@@ -28,23 +29,16 @@ body {
     align-items: center;
 }
 .item1 {
+    user-select: none;
     background-color: red;
     width: 400px;
     font-size: 150px;
     height: 100%;
 }
-:nth-child(2) {
-    background-color: white;
+img {
+    pointer-events: none;
+    width: 400px;
+    height: 100%;
+    user-select: none;
 }
-:nth-child(3) {
-    background-color: green;
-}
-:nth-child(4) {
-    background-color: blue;
-}
-:nth-child(5) {
-    background-color: blueviolet;
-}
-:nth-child(6) {
-    background-color: yellow;
-}
+/* @media screen and (max-width: 1280px) { div.container {width: 1200px;} }  */
