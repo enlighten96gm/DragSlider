@@ -5,6 +5,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    user-select: none;
     
 }
 .container {
@@ -36,6 +37,7 @@ body {
     height: 100%;
 }
 img {
+    user-select: none;
     pointer-events: none;
     width: 400px;
     height: 100%;
