@@ -20,7 +20,7 @@ body {
 }
 .slider {
     left: -4565px;
-    gap: 25px;
+    grid-gap: 25px;
     position: absolute;
     background-color: white;
     width: 10000px;
